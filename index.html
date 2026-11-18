@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megasupersite</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- ПАНЕЛЬ НАВИГАЦИИ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <!-- TODO 3 -->
+            <img src="img/logo.png" alt="" width="30" height="30">
+            PizzaHub
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+            <a class="nav-link" href="#">Рекомендуемые</a>
+            <a class="nav-link" href="#">Цена</a>
+            <a class="nav-link" href="#">О нас</a>
+        </div>
+        </div>
+    </div>
+    </nav>
+
+    <!-- ПИЦЦА -->
+    <main class="container">
+        <div class="row">
+            <div class="col-md ss-pizza p-3 m-2 rounded">
+                <article>
+                    <header>Пеперони</header>
+                    <img src="img/pizza1.jpg" class="img-thumbnail rounded float-start me-3">
+                    <p>Острая разновидность салями итало-американского происхождения. Обычно делается из свинины.</p>
+                    <button type="button" class="btn btn-outline-danger btn-lg">Заказать</button>
+                </article>
+            </div>
+            <div class="col-md ss-pizza p-3 m-2 rounded">
+                <article>
+                    <header>Домашняя</header>
+                    <img src="img/pizza6.jpg" class="img-thumbnail rounded float-start me-3">
+                    <p>Домашняя пицца в духовке с колбасой классическая. Вкусная домашняя пицца с тонким воздушным тестом.</p>
+                    <button type="button" class="btn btn-outline-danger btn-lg">Заказать</button>
+                    <footer style="clear: both;" class="pt-1 d-flex flex-row-reverse align-items-center">
+                        <img src="img/IS22C_IVANOV_II.jpg" alt="" srcset="">
+                        <p>Иванов Иван Иванович</p>
+                    </footer>
+                </article>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md ss-pizza p-3 m-2 rounded">
+                <article>
+                    <header>Трехцветная пицца</header>
+                    <img src="img/pizza44.jpg" class="img-thumbnail rounded float-start me-3">
+                    <p>Трёхцветная пицца — это блюдо, в котором ингредиенты символизируют цвета итальянского флага: красный (помидоры), белый (моцарелла) и зелёный (базилик).</p>
+                    <button type="button" class="btn btn-outline-danger btn-lg">Заказать</button>
+                    <footer style="clear: both;" class="pt-1 d-flex flex-row-reverse align-items-center">
+                        <img src="img/IS24A_PUGACHEV_RV.png" alt="" srcset="">
+                        <p>Енот</p>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-md">
+                <!-- TODO 2 -->
+            </div>
+        </div>        
+
+    </main>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
